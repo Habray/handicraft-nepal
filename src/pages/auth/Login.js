@@ -11,8 +11,8 @@ import {createOrUpdateUser} from '../../functions/auth';
 const Login = ({history}) => {
     
     // to control the "input" field
-    const [email, setEmail] = useState('parbatlimbu4@gmail.com')
-    const [password, setPassword] = useState('123456789')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
     const [loading, setLoading] = useState(false)
 
     const {user} = useSelector((state) => ({...state}))
