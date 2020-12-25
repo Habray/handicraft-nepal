@@ -77,7 +77,7 @@ const ProductCard = ({product}) => {
                 <img
                     // if we have imgae then it will be shown if no image is found defaultImage will be shown
                     src={images && images.length ? images[0].url : defaultImage}
-                    style={{ height: "300px", objectFit: "cover" }}
+                    style={{ height: "300px", objectFit: "contain" }}
                     className="p-1"
                 />
             }
