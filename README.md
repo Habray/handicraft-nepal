@@ -1,3 +1,7 @@
+# About Handicraft Nepal
+This project is E-Commerce Website which sells different Handicrafts of Nepal.
+Our Website: https://handicraftnepal.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
